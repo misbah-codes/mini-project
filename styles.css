@@ -22,7 +22,7 @@
     
     font-family: Courier, monospace; 
     text-align: center;
-    color: #001E6C;
+    color: hwb(223 0% 58%);
 }
 .para{
     color: #40514E;
@@ -73,7 +73,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   border: 0;
-  background-color:  rgb(24, 191, 220);
+  background-color:  hwb(223 0% 58%);
   box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -84,16 +84,16 @@ button {
 
 button:hover {
   letter-spacing: 4px;
-  background-color: rgb(24, 191, 220);
+  background-color: hwb(223 0% 58%);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(24, 191, 220) 0px 7px 29px 0px;
+  box-shadow: hwb(223 0% 58%) 0px 7px 29px 0px;
 }
 
 button:active {
   letter-spacing: 3px;
   background-color: hsl(24, 191, 220);
   color: hsl(0, 0%, 100%);
-  box-shadow: rgb(24, 191, 220) 0px 0px 0px 0px;
+  box-shadow: hwb(223 0% 58%) 0px 0px 0px 0px;
   transform: translateY(10px);
   transition: 100ms;
 }
