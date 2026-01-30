@@ -13,9 +13,21 @@
 .cloud1{
      margin-left: 500px;
 }
+.cloud1:hover{
+    transform: scale(1.03); 
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); 
+}
  
 .cloud2{
     margin-right: 500px;
+}
+.cloud2:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));  
+}
+.mountain:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); 
 }
 
 .div2{
@@ -107,20 +119,21 @@ footer{
 .logo {
     text-align: left;
     margin-left: 50px;
-    padding: 20px 0; /* Adds some vertical space */
+    padding: 10px 0; 
 }
 
 .logo a {
     text-decoration: none;
     color: white;
-    font-size: 1.5rem; /* Makes icons a good clickable size */
-    margin-right: 15px; /* Spaces out the icons */
-    transition: 0.3s; /* Smooth color change on hover */
+    font-size: 2rem; 
+    transition: 0.3s; 
 }
 
 .logo a:hover {
-    color: #0077b5; /* Example: LinkedIn blue or a brand color */
-    transform: scale(1.1); /* Subtle "pop" effect */
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.8)); 
 }
-
-
+.git img:hover{
+    transform: scale(1.09);
+    transition: 0.3s; 
+}
